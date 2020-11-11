@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(integer)
-  if integer % 3 ==0 && integer % 5 == 0
+  if integer % 3 == 0 && integer % 5 == 0
     return "FizzBuzz"
   elsif integer % 5 == 0
     return "Buzz"
