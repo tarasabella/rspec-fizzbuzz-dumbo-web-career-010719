@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(integer)
-  if integer/3 == && integer/5 == 
+  if integer % 3 ==0 && integer % 5 == 0
     return "FizzBuzz"
-  elsif integer/5 ==
+  elsif integer % 5 == 0
     return "Buzz"
-  elseif integer/3 == 
+  elseif integer % 3 == 0
     return "Fizz"
   else 
     return nil 
